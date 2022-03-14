@@ -123,7 +123,10 @@ const CreateInterview = () => {
                 const content = await rawResponse.json();
 
                 console.log(content);
+                if (content.status && content.status === 400) alert(content.msg);
             } catch (e) {
+                console.log('entered');
+                if(e.response.status === 400) alert(e.response.data.msg);
                 console.log(e);
             } finally {
                 navigate('/', { state: {} });
@@ -145,6 +148,8 @@ const CreateInterview = () => {
 
                 console.log(content);
             } catch (e) {
+                console.log('entered');
+                if(e.response.status === 400) alert(e.response.data.msg);
                 console.log(e);
             } finally {
                 navigate('/', { state: {} });
