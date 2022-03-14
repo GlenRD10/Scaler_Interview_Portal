@@ -1,0 +1,13 @@
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    float: left;
+    background-color: #F1D00A;
+    width: 23.75rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.time {
+    font-weight: bold;
+}

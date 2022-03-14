@@ -1,0 +1,21 @@
+.addInterviewButton {
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #F1D00A;
+    color: #3E497A;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.addInterviewButton:hover,
+.addInterviewButton:active {
+    background: #21325E;
+    border-color: #21325E;
+}
+
+.addInterviewButton:focus {
+    background-color: #21325E;
+    outline: none;
+}
